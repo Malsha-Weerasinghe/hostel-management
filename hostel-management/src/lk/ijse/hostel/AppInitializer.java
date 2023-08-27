@@ -1,0 +1,7 @@
+package lk.ijse.hostel;
+
+public class AppInitializer {
+    public static void main(String[] args) {
+
+    }
+}
