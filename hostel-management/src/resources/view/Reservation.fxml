@@ -12,8 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="596.0" prefWidth="954.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resources.view.Reservation">
+<AnchorPane prefHeight="596.0" prefWidth="954.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostel.controller.ReservationController">
    <children>
       <ImageView fitHeight="596.0" fitWidth="954.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -52,7 +51,7 @@
             <Label layoutX="26.0" layoutY="14.0" text="New Reservation" />
             <TableView fx:id="tblRoom" layoutX="16.0" layoutY="87.0" prefHeight="154.0" prefWidth="330.0">
               <columns>
-                <TableColumn fx:id="colRoomId" prefWidth="95.99996566772461" text="Room Type Id" />
+                <TableColumn fx:id="colRoomDId" prefWidth="95.99996566772461" text="Room Type Id" />
                 <TableColumn fx:id="colTypeRoomId" prefWidth="75.20001220703125" text="Type" />
                   <TableColumn fx:id="colRoomMoney" prefWidth="84.00001525878906" text="Key Money" />
                   <TableColumn fx:id="colRoomQty" prefWidth="75.19999694824219" text="Qty" />
@@ -60,7 +59,7 @@
             </TableView>
             <Label layoutX="26.0" layoutY="61.0" text="Select Room" />
             <Label layoutX="195.0" layoutY="61.0" text="Search Room" />
-            <TableView layoutX="380.0" layoutY="87.0" prefHeight="154.0" prefWidth="200.0">
+            <TableView fx:id="tblStudent" layoutX="380.0" layoutY="87.0" prefHeight="154.0" prefWidth="200.0">
               <columns>
                 <TableColumn fx:id="colSId" prefWidth="106.4000244140625" text="Student Id" />
                 <TableColumn fx:id="colSName" prefWidth="91.20001220703125" text="Student Name" />
