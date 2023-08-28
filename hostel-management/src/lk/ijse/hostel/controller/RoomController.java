@@ -6,6 +6,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import lk.ijse.hostel.dto.RoomDTO;
 
 public class RoomController {
@@ -44,6 +46,9 @@ public class RoomController {
     private Button newBtn;
 
     @FXML
+    private ImageView backBtn;
+
+    @FXML
     private TextField qtyField;
 
     @FXML
@@ -74,6 +79,11 @@ public class RoomController {
 
     @FXML
     void saveBtnOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void backBtnOnAction(MouseEvent event) {
 
     }
 }

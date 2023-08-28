@@ -3,6 +3,8 @@ package lk.ijse.hostel.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import lk.ijse.hostel.dto.StudentDTO;
 
 public class StudentController {
@@ -59,6 +61,9 @@ public class StudentController {
     private Button newBtn;
 
     @FXML
+    private ImageView backBtn;
+
+    @FXML
     private Button saveBtn;
 
     @FXML
@@ -86,6 +91,11 @@ public class StudentController {
 
     @FXML
     void saveBtnOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void backBtnOnAction(MouseEvent event) {
 
     }
 }

@@ -3,6 +3,8 @@ package lk.ijse.hostel.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import lk.ijse.hostel.dto.ReservationDTO;
 import lk.ijse.hostel.dto.RoomDTO;
 import lk.ijse.hostel.dto.StudentDTO;
@@ -91,6 +93,9 @@ public class ReservationController {
     private Button reserveBtn;
 
     @FXML
+    private ImageView backBtn;
+
+    @FXML
     private TextField rooIdField;
 
     @FXML
@@ -124,6 +129,11 @@ public class ReservationController {
 
     @FXML
     void reserveBtnOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void backBtnOnAction(MouseEvent event) {
 
     }
 }
