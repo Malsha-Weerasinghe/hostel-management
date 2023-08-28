@@ -1,5 +1,7 @@
 package lk.ijse.hostel.dao;
 
+import lk.ijse.hostel.dao.custom.impl.StudentDAOImpl;
+
 public class FactoryDAO {
 
     private static FactoryDAO factoryDAO;
