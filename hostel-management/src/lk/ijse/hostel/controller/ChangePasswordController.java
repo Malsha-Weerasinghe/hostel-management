@@ -6,8 +6,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 
 public class ChangePasswordController {
+
+    @FXML
+    private AnchorPane pane;
 
     @FXML
     private ImageView backBtn;
