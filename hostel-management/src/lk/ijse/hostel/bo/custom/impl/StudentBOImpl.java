@@ -2,6 +2,8 @@ package lk.ijse.hostel.bo.custom.impl;
 
 import lk.ijse.hostel.bo.SuperBO;
 import lk.ijse.hostel.bo.custom.StudentBO;
+import lk.ijse.hostel.dao.FactoryDAO;
+import lk.ijse.hostel.dao.custom.StudentDAO;
 import lk.ijse.hostel.dto.StudentDTO;
 import lk.ijse.hostel.entity.Student;
 
