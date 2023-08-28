@@ -1,5 +1,6 @@
 package lk.ijse.hostel.bo;
 
+import lk.ijse.hostel.bo.custom.impl.RoomsBOImpl;
 import lk.ijse.hostel.bo.custom.impl.StudentBOImpl;
 
 public class BOFactory {
