@@ -3,6 +3,7 @@ package lk.ijse.hostel.bo;
 import lk.ijse.hostel.bo.custom.impl.ReservationBOImpl;
 import lk.ijse.hostel.bo.custom.impl.RoomsBOImpl;
 import lk.ijse.hostel.bo.custom.impl.StudentBOImpl;
+import lk.ijse.hostel.bo.custom.impl.UserBOImpl;
 
 public class BOFactory {
 
