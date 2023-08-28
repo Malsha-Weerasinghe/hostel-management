@@ -1,4 +1,10 @@
 package lk.ijse.hostel.util;
 
-public class Routes {
+public enum Routes {
+    LOGIN,
+    DASHBOARD,
+    STUDENT,
+    ROOMS,
+    RESERVATION,
+    CHANGE_PASSWORD
 }
