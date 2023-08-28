@@ -1,5 +1,6 @@
 package lk.ijse.hostel.dao;
 
+import lk.ijse.hostel.dao.custom.impl.QueryDAOImpl;
 import lk.ijse.hostel.dao.custom.impl.ReservationDAOImpl;
 import lk.ijse.hostel.dao.custom.impl.RoomsDAOImpl;
 import lk.ijse.hostel.dao.custom.impl.StudentDAOImpl;
