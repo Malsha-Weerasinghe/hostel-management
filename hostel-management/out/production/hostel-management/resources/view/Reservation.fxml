@@ -53,7 +53,7 @@
       </AnchorPane>
       <AnchorPane fx:id="newReservationPane" layoutX="14.0" layoutY="298.0" prefHeight="282.0" prefWidth="932.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
          <children>
-            <Label layoutX="26.0" layoutY="14.0" text="New Reservation" />
+            <Label layoutX="26.0" layoutY="14.0" text="New Reservation" textFill="#00308f" />
             <TableView fx:id="tblRoom" layoutX="16.0" layoutY="87.0" prefHeight="154.0" prefWidth="330.0">
               <columns>
                 <TableColumn fx:id="colRoomDId" prefWidth="95.99996566772461" text="Room Type Id" />
@@ -62,33 +62,31 @@
                   <TableColumn fx:id="colRoomQty" prefWidth="75.19999694824219" text="Qty" />
               </columns>
             </TableView>
-            <Label fx:id="txtSelectRoom" layoutX="26.0" layoutY="61.0" text="Select Room" />
-            <Label fx:id="txtSearchRoom" layoutX="195.0" layoutY="61.0" text="Search Room" />
-            <TableView fx:id="tblStudent" layoutX="380.0" layoutY="87.0" prefHeight="154.0" prefWidth="200.0">
+            <Label fx:id="txtSelectRoom" layoutX="26.0" layoutY="61.0" text="Select Room" textFill="#00308f" />
+            <TableView fx:id="tblStudent" layoutX="359.0" layoutY="87.0" prefHeight="154.0" prefWidth="221.0">
               <columns>
-                <TableColumn fx:id="colSId" prefWidth="106.4000244140625" text="Student Id" />
-                <TableColumn fx:id="colSName" prefWidth="91.20001220703125" text="Student Name" />
+                <TableColumn fx:id="colSId" prefWidth="83.20001220703125" text="Student Id" />
+                <TableColumn fx:id="colSName" prefWidth="135.20001220703125" text="Student Name" />
               </columns>
             </TableView>
-            <Label fx:id="txtSelectStu" layoutX="386.0" layoutY="61.0" text="Select Student" />
-            <Label fx:id="txtSearchStu" layoutX="490.0" layoutY="61.0" text="Search Student" />
-            <Label layoutX="614.0" layoutY="87.0" text="Res.Id :" />
-            <Label layoutX="614.0" layoutY="114.0" text="Room Id :" />
-            <Label layoutX="614.0" layoutY="139.0" text="Student Id :" />
+            <Label fx:id="txtSelectStu" layoutX="368.0" layoutY="61.0" text="Select Student" textFill="#00308f" />
+            <Label layoutX="614.0" layoutY="37.0" text="Res.Id :" />
+            <Label layoutX="614.0" layoutY="82.0" text="Room Id :" />
+            <Label layoutX="614.0" layoutY="124.0" text="Student Id :" />
             <Label layoutX="614.0" layoutY="164.0" text="Res.Date :" />
             <Label layoutX="614.0" layoutY="192.0" text="Payment Status :" />
-            <TextField fx:id="resIdField" layoutX="676.0" layoutY="83.0" style="-fx-background-radius: 30px;" />
-            <TextField fx:id="rooIdField" layoutX="676.0" layoutY="110.0" style="-fx-background-radius: 30px;" />
-            <TextField fx:id="StuIdField" layoutX="676.0" layoutY="137.0" style="-fx-background-radius: 30px;" />
-            <RadioButton fx:id="paidStatusBtn" layoutX="708.0" layoutY="192.0" mnemonicParsing="false" text="Paid">
+            <TextField fx:id="resIdField" layoutX="685.0" layoutY="34.0" style="-fx-background-radius: 30px;" />
+            <TextField fx:id="rooIdField" layoutX="685.0" layoutY="80.0" style="-fx-background-radius: 30px;" />
+            <TextField fx:id="StuIdField" layoutX="685.0" layoutY="122.0" style="-fx-background-radius: 30px;" />
+            <RadioButton fx:id="paidStatusBtn" layoutX="729.0" layoutY="192.0" mnemonicParsing="false" text="Paid">
                <toggleGroup>
                   <ToggleGroup fx:id="PaymentStatus" />
                </toggleGroup></RadioButton>
-            <RadioButton fx:id="pendingStatusBtn" layoutX="771.0" layoutY="192.0" mnemonicParsing="false" text="Pending" toggleGroup="$PaymentStatus" />
+            <RadioButton fx:id="pendingStatusBtn" layoutX="803.0" layoutY="192.0" mnemonicParsing="false" text="Pending" toggleGroup="$PaymentStatus" />
             <Button fx:id="reserveBtn" layoutX="600.0" layoutY="229.0" mnemonicParsing="false" onAction="#reserveBtnOnAction" style="-fx-background-color: #002D62; -fx-background-radius: 30px;" text="Reserve" textFill="WHITE" />
             <Button fx:id="cancelBtn" layoutX="699.0" layoutY="229.0" mnemonicParsing="false" onAction="#cancelBtnOnAction" style="-fx-background-color: #002D62; -fx-background-radius: 30px;" text="Cancel" textFill="WHITE" />
             <Button fx:id="deleteBtn" layoutX="800.0" layoutY="229.0" mnemonicParsing="false" onAction="#deleteBtnOnAction" style="-fx-background-color: #F5761A; -fx-background-radius: 30px;" text="Delete" textFill="WHITE" />
-            <DatePicker fx:id="resDateField" layoutX="678.0" layoutY="166.0" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #002D62;" />
+            <DatePicker fx:id="resDateField" layoutX="687.0" layoutY="162.0" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #002D62;" />
          </children>
       </AnchorPane>
       <ImageView fx:id="backBtn" fitHeight="26.0" fitWidth="27.0" layoutX="40.0" layoutY="19.0" onMouseClicked="#backBtnOnAction" pickOnBounds="true" preserveRatio="true">

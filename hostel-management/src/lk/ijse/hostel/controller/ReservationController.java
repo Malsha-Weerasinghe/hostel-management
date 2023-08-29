@@ -171,9 +171,9 @@ public class ReservationController {
         colRoomMoney.setCellValueFactory(new PropertyValueFactory<>("key_money"));
         colRoomQty.setCellValueFactory(new PropertyValueFactory<>("qty"));
 
-        txtSearchRoom.textProperty().addListener((observable, oldValue, newValue) -> {
-            loadRoomTable(newValue);
-        });
+//        txtSearchRoom.textProperty().addListener((observable, oldValue, newValue) -> {
+//            loadRoomTable(newValue);
+//        });
 
         tblRoom.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue != null) {
@@ -193,9 +193,9 @@ public class ReservationController {
             }
         });
 
-        txtSearchStu.textProperty().addListener((observable, oldValue, newValue) -> {
-            loadStudentTable(newValue);
-        });
+//        txtSearchStu.textProperty().addListener((observable, oldValue, newValue) -> {
+//            loadStudentTable(newValue);
+//        });
 
         // reservation table
         colResId.setCellValueFactory(new PropertyValueFactory<>("res_id"));
@@ -366,9 +366,9 @@ public class ReservationController {
     void newBtnOnAction(ActionEvent event) {
         String nextID = generateNextID(reservationBO.getCurrentID());
         resIdField.setText(nextID);
-        txtSearchRoom.setText("");
+       // txtSearchRoom.setText("");
         rooIdField.setText("");
-        txtSearchStu.setText("");
+       // txtSearchStu.setText("");
         StuIdField.setText("");
 
         resDateField.setValue(LocalDate.now());
