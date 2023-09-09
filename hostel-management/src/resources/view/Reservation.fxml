@@ -62,14 +62,14 @@
                   <TableColumn fx:id="colRoomQty" prefWidth="75.19999694824219" text="Qty" />
               </columns>
             </TableView>
-            <Label fx:id="txtSelectRoom" layoutX="26.0" layoutY="61.0" text="Select Room" textFill="#00308f" />
+            <Label layoutX="26.0" layoutY="61.0" text="Select Room" textFill="#00308f" />
             <TableView fx:id="tblStudent" layoutX="359.0" layoutY="87.0" prefHeight="154.0" prefWidth="221.0">
               <columns>
                 <TableColumn fx:id="colSId" prefWidth="83.20001220703125" text="Student Id" />
                 <TableColumn fx:id="colSName" prefWidth="135.20001220703125" text="Student Name" />
               </columns>
             </TableView>
-            <Label fx:id="txtSelectStu" layoutX="368.0" layoutY="61.0" text="Select Student" textFill="#00308f" />
+            <Label layoutX="368.0" layoutY="61.0" text="Select Student" textFill="#00308f" />
             <Label layoutX="614.0" layoutY="37.0" text="Res.Id :" />
             <Label layoutX="614.0" layoutY="82.0" text="Room Id :" />
             <Label layoutX="614.0" layoutY="124.0" text="Student Id :" />

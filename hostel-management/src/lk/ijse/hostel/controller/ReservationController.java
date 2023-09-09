@@ -210,9 +210,9 @@ public class ReservationController {
         tblReservation.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue != null) {
                 resIdField.setText(newValue.getRes_id());
-                txtSearchRoom.setText(newValue.getRoom_type_id());
+//                txtSearchRoom.setText(newValue.getRoom_type_id());
                 rooIdField.setText(newValue.getRoom_type_id());
-                txtSearchStu.setText(newValue.getId());
+//                txtSearchStu.setText(newValue.getId());
                 StuIdField.setText(newValue.getId());
                 resDateField.setValue(LocalDate.parse(newValue.getRes_date().toString()));
             }
